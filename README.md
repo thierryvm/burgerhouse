@@ -7,4 +7,8 @@
 ## Configuration du fichier tailwind.config.js
 
 npm install -D tailwindcss
-npx tailwindcss init
+npx tailwindcss init --full
+
+## Configuration de line-clamp
+
+[Line Clamp](https://github.com/tailwindlabs/tailwindcss-line-clamp/)
