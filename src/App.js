@@ -6,9 +6,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h1 className="text-6xl font-bold underline bg-slate-300">
+          Hello world!
+        </h1>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,6 +17,9 @@ function App() {
         >
           Learn React
         </a>
+        <button class="bg-sky-500 hover:bg-sky-700 ...">
+          Save changes
+        </button>
       </header>
     </div>
   );
