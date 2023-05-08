@@ -2,11 +2,8 @@ import React from 'react'
 
 export default function App() {
   return (
-    <div className="App flex justify-center bg-cyan-400 text-4xl text-slate-600 font-sans hover:font-serif font-semibold w-screen h-40 p-12">
-      Burger House
+    <div>
+      <h1 className='flex justify-center text-6xl text-slate-900 w-screen h-auto bg-slate-400 font-sans p-10'>Hello World</h1>
     </div>
   )
 }
-
-
-
